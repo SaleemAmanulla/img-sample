@@ -15,7 +15,9 @@ body{
     height: 300px;
     width: 700px;
     background-color:burlywood;
-    transform: translatey(200px);
+    transform: translatey(200px); 
+    justify-content:center;
+    text-align:center;
     margin: auto;
     border-radius: 15px;
     display:flex;
@@ -51,4 +53,65 @@ body{
 
 .form-btn:hover{
     background-color:gold;
+}
+
+@media only screen and (max-width:1265px){
+    .formss{
+        height: 300px;
+        width: 550px;
+    }
+   
+    .inputs{
+        margin-left: 60px;
+    }
+    .exmava{
+        margin-left:15px;
+    }
+}
+
+@media only screen and (max-width:950px){
+    .formss{
+        height: 200px;
+        width: 425px;
+    }
+   
+    .inputs{
+        margin-left: 30px;
+    }
+    .exmava{
+        height:150px;
+        transform: translateY(25px);
+        margin-left: 1px;
+    }
+    .boxx{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width:720px){
+    .formss{
+        transform: translatey(100px);
+    }
+}
+
+@media only screen and (max-width:530px){
+    body{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image:url('./images/bgimgmob.png')
+        
+    }
+    .formss{
+        height: 425px;
+        width: 200px;
+        /* display:contents; */
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .exmava{
+        transform: translateY(5px);
+    }
+    .inputs{
+        margin:0;
+    }
 }
