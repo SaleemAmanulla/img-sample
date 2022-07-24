@@ -4,7 +4,51 @@ body{
     background-image:url('./images/bgimg.png')
     
 }
+
 *{
     margin: 0;
     padding: 0;
+    border:0;
+}
+
+.formss{
+    height: 300px;
+    width: 700px;
+    background-color:beige;
+    transform: translatey(200px);
+    margin: auto;
+    border-radius: 15px;
+    display:flex;
+}
+
+.exmava{
+    height: 200px;
+    transform: translateY(50px);
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.inputs{
+    
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 125px;
+    
+}
+
+.boxx{
+    margin-top: 30px;
+    text-align:center;
+    background-color: darkgrey;
+    border-radius:7px;
+    height: 30px;
+}
+
+.form-btn{
+    margin-top: 70px;
+    width:100px;
+}
+
+.form-btn:hover{
+    background-color:gold;
 }
