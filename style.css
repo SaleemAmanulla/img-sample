@@ -1,7 +1,7 @@
 body{
     background-repeat: no-repeat;
     background-size: cover;
-    background-image:url('./images/bgimg.png')
+    background-image:url('./asserts/images/bgimg.png')
     
 }
 
@@ -14,7 +14,7 @@ body{
 .formss{
     height: 300px;
     width: 700px;
-    background-color:beige;
+    background-color:burlywood;
     transform: translatey(200px);
     margin: auto;
     border-radius: 15px;
@@ -39,7 +39,7 @@ body{
 .boxx{
     margin-top: 30px;
     text-align:center;
-    background-color: darkgrey;
+    background-color: white;
     border-radius:7px;
     height: 30px;
 }
